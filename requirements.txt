@@ -1,0 +1,10 @@
+
+PyPDF2
+python-dotenv
+streamlit
+faiss-cpu
+streamlit-extras
+langchain==0.0.316
+openai==0.28.1
+tiktoken
+pymongo
