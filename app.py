@@ -113,6 +113,6 @@ def main():
 
  
 if __name__ == '__main__':
-    os.environ["OPENAI_API_KEY"] ="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"
+    os.environ["OPENAI_API_KEY"] =st.secrets['OPENAI_API_KEY']
     
     main()
