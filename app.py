@@ -15,7 +15,7 @@ from bson.objectid import ObjectId
 
 
 #Db loading
-uri = "mongodb+srv://ajeer:Atk%408522@cluster0.u0vp9iz.mongodb.net/?retryWrites=true&w=majority"
+uri = st.secrets['uri']
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
